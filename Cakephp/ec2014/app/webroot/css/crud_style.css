@@ -1,0 +1,207 @@
+
+@font-face {
+  font-family: 'Siyam Rupali';
+  src: url('fonts/Siyam_Rupali/SiyamRupali.eot?version=1.070');
+  src: local('Siyam Rupali'), url('fonts/Siyam_Rupali/SiyamRupali.woff?version=1.070') format('woff'),       
+  url('fonts/Siyam_Rupali/SiyamRupali.ttf?version=1.070') format('truetype');
+  font-style: normal;
+  unicode-range: U+0980-09FF; 
+}
+
+
+
+.form
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+.input 
+{
+	padding: 10px;
+}
+
+
+legend
+{
+font-size: 16px;
+color: #1A466B;
+}
+
+
+label 
+{
+	/*display: block;*/ 
+	display: inline-block;
+    width: 200px;
+}
+
+
+
+input[type=text], [type=number], select {
+    width: 200px;
+    height: 25px;
+    border: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;      
+}
+
+input[type=text], [type=number], select:focus {
+    outline: 0;
+   /* background: #eee;*/
+  	background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+input[type=submit]
+{
+	width: 100px;
+    height: 30px;
+    background-color: #0D304E;
+    color: #FFFFFF;
+    font-weight: bold;
+    float: right;
+    cursor:pointer;
+}
+input[type=submit]:hover
+{
+	background-color: #0081EA;
+}
+
+input[readonly=readonly] {
+	background: #D8D7D7;
+	box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+textarea {
+    width: 150px;
+    height: 18px;
+    border: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset; 
+}
+textarea , select:focus {
+    outline: 0;
+    background: #eee;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+.error-message
+{
+	font-size: 12px;
+	font-style: italic;
+	color: #DD0024;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+/*TABLE STYLE*/
+
+table
+{
+	font-family:"Siyam Rupali", "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 4px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe url('table-images/gradhead.png') repeat-x;
+	border-top: 2px solid #d3ddff;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+td
+{
+	padding: 8px; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid #fff;
+	background: #e8edff url('table-images/gradback.png') repeat-x;
+}
+tfoot tr td
+{
+	background: #e8edff;
+	font-size: 12px;
+	color: #0E3252;
+}
+tbody tr:hover td
+{
+	background: #d0dafd url('table-images/gradhover.png') repeat-x;
+	color: #339;
+}
+
+dl {
+	/*float: left;*/
+	display: inline-block;
+}
+dt { 
+	float: left;
+    width: 180px;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid black; 
+
+    clear: left;
+    font-weight: bold;
+    }
+dd { 
+	float: left;
+    width: 200px;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid black; 
+}
+
+/*PAGING STYLE*/
+div.paging span {
+    background-color: #F5F5F5;
+    border: 1px solid #EBEBEB;
+    color: #0072BC;
+    font-weight: bold;
+}
+div.paging span a {
+    padding: 2px 7px;
+    text-decoration: none;
+    width: 22px;
+}
+div.paging span a:hover {
+    background-color: #DDEEFF;
+    color: #0072BC;
+    cursor: pointer;
+}
+div.paging span a:hover {
+    color: #0072BC;
+}
+div.paging span.disabled, div.paging span.disabled:hover {
+    background: #EEEEEE;
+    border: 1px solid #DAD9D9;
+    color: #D7D7D7;
+    cursor: default;
+}
+div.paging span.current {
+    background-color: #DDEEFF;
+    border: 1px solid #BBDDFF;
+    color: #0072BC;
+    cursor: default;
+    padding: 0 7px;
+    text-decoration: none;
+}
+/*FLASH MESSAGE STYLE*/
+/*
+#flashMessage, div.alert{
+    background:#F7C685;
+    color:black;
+    font-weight: bold;
+   margin:0;
+   padding:2px;
+   border: 1px solid ccc;
+   height: 20px;
+   border-radius: 4px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+}*/

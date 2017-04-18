@@ -1,0 +1,144 @@
+<?php
+
+class ReportsTable11Controller extends AppController {
+
+    var $uses = false;
+    public function _make_where_condition()
+    {
+            $where = " 1=1";
+            if ($this -> request -> data['geo_code_divn'] != "") {
+                $where .= " AND geo_code_divn_id = '" . $this -> request -> data['geo_code_divn'] . "'";
+            }
+            if ($this -> request -> data['geo_code_zila'] != "") {
+                $where .= " AND geo_code_zila_id = '" . $this -> request -> data['geo_code_zila'] . "'";
+            }
+            if ($this -> request -> data['geo_code_upazila'] != "") {
+                $where .= " AND geo_code_upazila_id = '" . $this -> request -> data['geo_code_upazila'] . "'";
+            }
+            if ($this -> request -> data['geo_code_psa'] != "") {
+                $where .= " AND geo_code_psa_id = '" . $this -> request -> data['geo_code_psa'] . "'";
+            }
+            if ($this -> request -> data['geo_code_union'] != "") {
+                $where .= " AND geo_code_union_id = '" . $this -> request -> data['geo_code_union'] . "'";
+            }
+            
+            return $where;
+    }
+
+    public function _make_query($code, $condition)
+    {
+        $this -> loadModel('Report');
+
+        $where = $this->_make_where_condition();
+
+        if($condition == "T")
+            $query = "SELECT (D.DIVN_CODE) AS DIVN_CODE, (D.DIVN_CODE_DESC_BNG) AS DIVN_CODE_DESC_BNG, COUNT(R.QUESTIONNARIE_ID) AS TOTAL_EST, SUM(R.TOTAL_PERSON_ENGAGED) AS TOTAL_PERSON FROM IND_CODE_DIVNS D LEFT JOIN BBSEC2013_REPORTS R ON (SUBSTR(R.Q6_IND_CODE_CLASS_CODE,1,2) = D.DIVN_CODE) WHERE ".$where." AND SUBSTR(R.Q6_IND_CODE_CLASS_CODE,1,2) = '".$code."' GROUP BY D.DIVN_CODE, D.DIVN_CODE_DESC_BNG ";
+        else
+            $query = "SELECT (D.DIVN_CODE) AS DIVN_CODE, COUNT(R.QUESTIONNARIE_ID) AS TOTAL_EST FROM IND_CODE_DIVNS D LEFT JOIN BBSEC2013_REPORTS R ON (SUBSTR(R.Q6_IND_CODE_CLASS_CODE,1,2) = D.DIVN_CODE) WHERE ".$where." AND SUBSTR(R.Q6_IND_CODE_CLASS_CODE,1,2) = '".$code."' AND ".$condition." GROUP BY D.DIVN_CODE ";
+        //echo $query."<br><br>";
+        $result = $this -> Report -> query($query);
+        return $result[0];
+    }
+    
+    public function show()
+    {
+        ini_set("memory_limit","1024M");
+        ini_set('max_execution_time', 30000);
+
+        $this -> loadModel('Report');
+        $divn = "";
+        $zila = "";
+        $upazila = "";
+        $psa = "";
+        $union = "";
+
+        if ($this -> request -> is('post')) {
+
+            $div_id = $this -> request -> data['geo_code_divn'];
+            $zila_id = $this -> request -> data['geo_code_zila'];
+
+            $divn = $this -> request -> data['divn_text'];
+            $zila = $this -> request -> data['zila_text'];
+            $upazila = $this -> request -> data['upazila_text'];
+            $psa = $this -> request -> data['psa_text'];
+            $union = $this -> request -> data['union_text'];
+
+            $data = array();
+            $j = 0;
+            for($i=10; $i <= 33; $i++)
+            {
+                $res = $this->_make_query($i, "T");
+                $data[$j]['DIVN_CODE'] = $res[0]['DIVN_CODE'];
+                $data[$j]['DIVN_CODE_DESC_BNG'] = $res[0]['DIVN_CODE_DESC_BNG'];
+                $data[$j]['TOTAL_EST'] = $res[0]['TOTAL_EST'];
+                $data[$j]['TOTAL_PERSON'] = $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START < 1947 ");
+                $data[$j]['BEFORE_1947'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1947 AND 1959 ");
+                $data[$j]['BET_1947_1959'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1960 AND 1970 ");
+                $data[$j]['BET_1960_1970'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1971 AND 1979 ");
+                $data[$j]['BET_1971_1979'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1980 AND 1989 ");
+                $data[$j]['BET_1980_1989'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1990 AND 1999 ");
+                $data[$j]['BET_1990_1999'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 2000 AND 2009 ");
+                $data[$j]['BET_2000_2009'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 2010 AND 2013 ");
+                $data[$j]['BET_2010_2013'] = $res[0]['TOTAL_EST'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START IS NULL ");
+                $data[$j]['BET_NULL'] = $res[0]['TOTAL_EST'];
+
+
+
+                //===================== Persons============
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START < 1947 ");
+                $data[$j]['P_BEFORE_1947'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1947 AND 1959 ");
+                $data[$j]['P_BET_1947_1959'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1960 AND 1970 ");
+                $data[$j]['P_BET_1960_1970'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1971 AND 1979 ");
+                $data[$j]['P_BET_1971_1979'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1980 AND 1989 ");
+                $data[$j]['P_BET_1980_1989'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 1990 AND 1999 ");
+                $data[$j]['P_BET_1990_1999'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 2000 AND 2009 ");
+                $data[$j]['P_BET_2000_2009'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START BETWEEN 2010 AND 2013 ");
+                $data[$j]['P_BET_2010_2013'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $res = $this->_make_query($i, " R.Q12_YEAR_OF_START IS NULL ");
+                $data[$j]['P_BET_NULL'] = (int) $res[0]['TOTAL_PERSON'];
+
+                $j++;
+            }
+            
+        } 
+
+        #debug($data);  
+        $this -> set(compact('divn', 'zila', 'upazila', 'psa', 'union','data'));    
+    }
+}
+
+?>

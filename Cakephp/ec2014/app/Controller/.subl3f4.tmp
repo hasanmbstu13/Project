@@ -1,0 +1,300 @@
+<?php
+
+class ReportsSixController extends AppController {
+
+	var $uses = false;
+	
+
+	#----------------------------------------------SIX------------------------------------------------------
+
+	public function tpe_tbl_six_one() {
+		$this -> loadModel('Report');
+
+        $divn = "";
+        $zila = "";
+        $upazila = "";
+        $psa = "";
+        $union = "";
+
+        if ($this -> request -> is('post')) {
+            $divn = $this -> request -> data['divn_text'];
+            $zila = $this -> request -> data['zila_text'];
+            $upazila = $this -> request -> data['upazila_text'];
+            $psa = $this -> request -> data['psa_text'];
+            $union = $this -> request -> data['union_text'];
+
+            $where = $this->_make_where_condition();
+
+            $result_A = $this->_prepate_result("Agriculture,forestry and fishing", $where, "BETWEEN 1 AND 3");
+            $result_B = $this->_prepate_result("Mining and quarrying", $where, "BETWEEN 5 AND 9");
+            $result_C = $this->_prepate_result("Mining and quarrying", $where, "BETWEEN 10 AND 33");
+
+
+
+			
+            $this -> set(compact('divn', 'zila', 'upazila', 'psa', 'union', 'result_A', 'result_B', 'result_C'));  
+            
+        }
+	}
+
+
+	public function _prepate_result($activity, $where, $between)
+	{
+		$db = get_class_vars('DATABASE_CONFIG');
+
+			$conn = oci_connect($db['default']['login'], $db['default']['password'], $db['default']['database']);
+
+			if (!$conn) {
+				$m = oci_error();
+				echo 'Failed to connect with server. ' . $m['message'];
+				die();
+			} else {
+				$sql = "SELECT '".$activity."' AS BSIC_DESCRIPTION, COUNT(REPORT.QUESTIONNARIE_ID) AS TOTAL_EST, 
+						    (SELECT COUNT(R_ONE.QUESTIONNARIE_ID)  AS F_A_1 FROM BBSEC2013_REPORTS  R_ONE 
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_ONE.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between."  
+						    AND R_ONE.Q16_FIXED_CAPITAL = 1)  AS F_A_1,
+						    
+						    (SELECT COUNT(R_TWO.QUESTIONNARIE_ID)  AS F_A_2 FROM BBSEC2013_REPORTS  R_TWO 
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_TWO.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between."  
+						    AND R_TWO.Q16_FIXED_CAPITAL = 2 )  AS F_A_2,
+						    
+						    (SELECT COUNT(R_THREE.QUESTIONNARIE_ID) AS  F_A_3 FROM BBSEC2013_REPORTS  R_THREE
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_THREE.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between."  
+						    AND R_THREE.Q16_FIXED_CAPITAL = 3)  AS F_A_3,
+						    
+						    (SELECT COUNT(R_FOUR.QUESTIONNARIE_ID) AS  F_A_4 FROM BBSEC2013_REPORTS  R_FOUR 
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_FOUR.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between." 
+						    AND R_FOUR.Q16_FIXED_CAPITAL = 4)  AS F_A_4,
+						    
+						    (SELECT COUNT(R_FIVE.QUESTIONNARIE_ID)  AS F_A_5 FROM BBSEC2013_REPORTS  R_FIVE
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_FIVE.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between." 
+						    AND R_FIVE.Q16_FIXED_CAPITAL = 5) AS  F_A_5,
+						    
+						    (SELECT COUNT(R_SIX.QUESTIONNARIE_ID) AS  F_A_6 FROM BBSEC2013_REPORTS  R_SIX 
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_SIX.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between." 
+						    AND R_SIX.Q16_FIXED_CAPITAL = 6)  AS F_A_6,
+						    
+						    (SELECT COUNT(R_SEVEN.QUESTIONNARIE_ID) AS  F_A_7 FROM BBSEC2013_REPORTS  R_SEVEN 
+						    WHERE ".$where." AND F_TO_NUMBER(SUBSTR(R_SEVEN.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between." 
+						    AND R_SEVEN.Q16_FIXED_CAPITAL = 7)  AS F_A_7
+						    
+						FROM BBSEC2013_REPORTS REPORT
+						WHERE ".$where." AND F_TO_NUMBER(SUBSTR(REPORT.Q6_IND_CODE_CLASS_CODE,1,2)) ".$between." 
+						GROUP BY  '".$activity."'";
+						
+				$stid = oci_parse($conn, $sql);
+				oci_execute($stid); 
+				$array = array();
+		        while (($row = oci_fetch_array($stid, OCI_ASSOC)) != false) {
+		            $array = $row;
+		        }
+
+		         oci_free_statement($stid);
+        		 oci_close($conn);
+        		 return $array;
+			}
+			
+	}
+
+	public function tpe_tbl_six_two() {
+		$this -> set('title_for_layout', 'Table: 6.2 Number of manufacturing establishments by selected working facilities');
+
+	$this -> loadModel('Report');
+
+		$divn = "";
+		$zila = "";
+		$upazila = "";
+		$psa = "";
+		$union = "";
+
+		if ($this -> request -> is('post')) {
+			$divn = $this -> request -> data['divn_text'];
+			$zila = $this -> request -> data['zila_text'];
+			$upazila = $this -> request -> data['upazila_text'];
+			$psa = $this -> request -> data['psa_text'];
+			$union = $this -> request -> data['union_text'];
+
+			$conditions = array();
+			$where = " 1=1";
+			if ($this -> request -> data['geo_code_divn'] != "") {
+				$conditions['geo_code_divn_id'] = $this -> request -> data['geo_code_divn'];
+				$where .= " AND geo_code_divn_id = '" . $this -> request -> data['geo_code_divn'] . "'";
+			}
+			if ($this -> request -> data['geo_code_zila'] != "") {
+				$conditions['geo_code_zila_id'] = $this -> request -> data['geo_code_zila'];
+				$where .= " AND geo_code_zila_id = '" . $this -> request -> data['geo_code_zila'] . "'";
+			}
+			if ($this -> request -> data['geo_code_upazila'] != "") {
+				$conditions['geo_code_upazila_id'] = $this -> request -> data['geo_code_upazila'];
+				$where .= " AND geo_code_upazila_id = '" . $this -> request -> data['geo_code_upazila'] . "'";
+			}
+			if ($this -> request -> data['geo_code_psa'] != "") {
+				$conditions['geo_code_psa_id'] = $this -> request -> data['geo_code_psa'];
+				$where .= " AND geo_code_psa_id = '" . $this -> request -> data['geo_code_psa'] . "'";
+			}
+			if ($this -> request -> data['geo_code_union'] != "") {
+				$conditions['geo_code_union_id'] = $this -> request -> data['geo_code_union'];
+				$where .= " AND geo_code_union_id = '" . $this -> request -> data['geo_code_union'] . "'";
+			}
+
+			$where_urban = $where . " AND ques_rmo_code IN(2,3,9) ";
+			$where_rural = $where . " AND ques_rmo_code IN(1,5,7) ";
+
+
+			//ROW TWO
+			$total_est_urban = $this -> Report -> query("SELECT COUNT(*) AS total_est_urban FROM BBSEC2013_REPORTS WHERE " . $where_urban);
+			$total_est_urban = (int) $total_est_urban[0][0]['total_est_urban'];
+
+			$total_est_rural = $this -> Report -> query("SELECT COUNT(*) AS total_est_rural FROM BBSEC2013_REPORTS WHERE " . $where_rural);
+			$total_est_rural = (int) $total_est_rural[0][0]['total_est_rural'];
+
+
+
+			//ROW THREE 
+			$total_person_urban = $this -> Report -> query("SELECT SUM(total_person_engaged) AS total_person_urban FROM BBSEC2013_REPORTS WHERE " . $where_urban);
+			$total_person_urban = (int) $total_person_urban[0][0]['total_person_urban'];
+
+
+			$total_person_rural = $this -> Report -> query("SELECT SUM(total_person_engaged) AS total_person_rural FROM BBSEC2013_REPORTS WHERE " . $where_rural);
+			$total_person_rural = (int) $total_person_rural[0][0]['total_person_rural'];
+
+			
+			//ROW FOUR 
+			$total_fire_equipment_urban = $this -> Report -> query("SELECT COUNT(*) AS total_fire_equipment_urban FROM BBSEC2013_REPORTS WHERE".$where_urban."AND Q22_IS_FIRE_SECURED = 1 ");
+			$total_fire_equipment_urban = (int) $total_fire_equipment_urban[0][0]['total_fire_equipment_urban'];
+
+			$total_fire_equipment_rural = $this -> Report -> query("SELECT COUNT(*) AS total_fire_equipment_rural FROM BBSEC2013_REPORTS WHERE".$where_rural."AND Q22_IS_FIRE_SECURED = 1 ");
+			$total_fire_equipment_rural = (int) $total_fire_equipment_rural[0][0]['total_fire_equipment_rural'];
+
+
+
+			//ROW FIVE 
+			$total_waste_management_urban = $this -> Report -> query("SELECT COUNT(*) AS total_waste_management_urban FROM BBSEC2013_REPORTS WHERE".$where_urban."AND Q23_IS_GARBAGE_PROPER = 1 ");
+			$total_waste_management_urban = (int) $total_waste_management_urban[0][0]['total_waste_management_urban'];
+
+			$total_waste_management_rural = $this -> Report -> query("SELECT COUNT(*) AS total_waste_management_rural FROM BBSEC2013_REPORTS WHERE".$where_rural."AND Q23_IS_GARBAGE_PROPER = 1 ");
+			$total_waste_management_rural = (int) $total_waste_management_rural[0][0]['total_waste_management_rural'];
+
+
+
+			//ROW SIX
+			$total_toilet_facility_urban = $this -> Report -> query("SELECT COUNT(*) AS total_fire_equipment_urban FROM BBSEC2013_REPORTS WHERE".$where_urban."AND total_toilet_facility_urban = 1 ");
+			$total_toilet_facility_urban = (int) $total_toilet_facility_urban[0][0]['total_toilet_facility_urban'];
+
+			$total_toilet_facility_rural = $this -> Report -> query("SELECT COUNT(*) AS total_toilet_facility_rural FROM BBSEC2013_REPORTS WHERE".$where_rural."AND Q24_IS_TOILET_AVAILABLE = 1 ");
+			$total_toilet_facility_rural = (int) $total_toilet_facility_rural[0][0]['total_toilet_facility_rural'];
+
+
+			//ROW SEVEN
+			$total_toilet_facility_women_urban = $this -> Report -> query("SELECT COUNT(*) AS total_toilet_facility_women_urban FROM BBSEC2013_REPORTS WHERE".$where_urban."AND Q24_IS_LADIES_TOILET_AVAILABLE = 1 ");
+			$total_toilet_facility_women_urban = (int) $total_toilet_facility_women_urban[0][0]['total_toilet_facility_women_urban'];
+
+			$total_toilet_facility_women_rural = $this -> Report -> query("SELECT COUNT(*) AS total_toilet_facility_women_rural FROM BBSEC2013_REPORTS WHERE".$where_rural."AND Q24_IS_LADIES_TOILET_AVAILABLE = 1 ");
+			$total_toilet_facility_women_rural = (int) $total_toilet_facility_women_rural[0][0]['total_toilet_facility_women_rural'];
+
+		}
+
+		$this -> set(compact('divn', 'zila', 'upazila', 'psa', 'union', 
+		# -----------------
+		'total_est_urban', 'total_est_rural',
+		#--------------------------
+		'total_person_urban', 'total_person_rural',
+		# -----------------
+		'total_fire_equipment_urban', 'total_fire_equipment_rural',
+		# -----------------
+		'total_waste_management_urban', 'total_waste_management_rural',
+		# -----------------
+		'total_toilet_facility_urban', 'total_toilet_facility_rural',
+		# -----------------
+		'total_toilet_facility_women_urban', 'total_toilet_facility_women_rural'
+
+		));
+
+
+
+		
+	}
+
+	public function tpe_tbl_six_three() {
+		$this -> set('title_for_layout', 'Table: 6.3 Number of establishments by size of investment invested by Non-resident Bangladeshi (NRB) in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_four() {
+		$this -> set('title_for_layout', 'Table: 6.4 Number of manufacturing establishments by type of machinery used and by upazila in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_five() {
+		$this -> set('title_for_layout', 'Table: 6.5 Number of manufacturing establishments by marketing area and upazila in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_six() {
+		$this -> set('title_for_layout', 'Table: 6.6 Number of manufacturing establishments by type of fuel used for production and upazila in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_seven() {
+		$this -> set('title_for_layout', 'Table: 6.7 Number of manufacturing establishments used computer technology (CT) in production by upazila in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_eight() {
+		$this -> set('title_for_layout', 'Table: 6.8 Number of establishments by status of TIN and upazila in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_nine() {
+		$this -> set('title_for_layout', 'Table: 6.9 Number of establishments by status of TIN and economic activity in 2013');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_ten() {
+		$this -> set('title_for_layout', 'Table: 6.10 Number of establishments by status of VAT registration and upazila in 2013
+
+');
+
+		// Logic goes Here
+	}
+
+	public function tpe_tbl_six_eleven() {
+		$this -> set('title_for_layout', 'Table: 6.11 Number of establishments by status of VAT registration and economic activity in 2013');
+
+		// Logic goes Here
+	}
+
+	public function _make_where_condition()
+    {
+            $conditions = array();
+            $where = " 1=1";
+            if ($this -> request -> data['geo_code_divn'] != "") {
+                $where .= " AND geo_code_divn_id = '" . $this -> request -> data['geo_code_divn'] . "'";
+            }
+            if ($this -> request -> data['geo_code_zila'] != "") {
+                $where .= " AND geo_code_zila_id = '" . $this -> request -> data['geo_code_zila'] . "'";
+            }
+            if ($this -> request -> data['geo_code_upazila'] != "") {
+                $where .= " AND geo_code_upazila_id = '" . $this -> request -> data['geo_code_upazila'] . "'";
+            }
+            if ($this -> request -> data['geo_code_psa'] != "") {
+                $where .= " AND geo_code_psa_id = '" . $this -> request -> data['geo_code_psa'] . "'";
+            }
+            if ($this -> request -> data['geo_code_union'] != "") {
+                $where .= " AND geo_code_union_id = '" . $this -> request -> data['geo_code_union'] . "'";
+            }
+            
+            return $where;
+    }
+
+	
+
+	
+}

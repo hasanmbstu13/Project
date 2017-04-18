@@ -1,0 +1,163 @@
+<script>
+
+
+var  zilaCode = new Array();
+var  upaZilaCode = new Array();
+var unionCode = new Array();
+var unionMauza = new Array();
+
+$(document).ready(function() {
+    
+    
+    
+// GET ZILA 
+        $('#GeoCodeVillageDivns').change(function() {
+            var selectvalue = $(this).val();
+            var pathname = window.location.pathname;
+            var path = pathname.split('/add');
+            path = path[0] + "/getZilaName";
+            //var data = 'id=' + selectvalue;
+            $("#GeoCodeVillageGeoCodeZilaId").empty();
+            $.ajax({
+                url : path,
+                type : "POST",
+                dataType : 'json',
+                data : {
+                    geo_code_divn_id : selectvalue
+                },
+                success : function(data) {
+                    
+                    $("#GeoCodeVillageGeoCodeZilaId").empty();
+                    $("#GeoCodeVillageGeoCodeZilaId").append($("<option />").val("").text(""));
+                    zilaCode = new Array();
+                    $.each(data, function(index, element) { 
+                        $("#GeoCodeVillageGeoCodeZilaId").append($("<option />").val(index).text(element));
+                    });
+                }
+            });
+            }); 
+            
+            
+            
+//  GET UPAZILA     
+            
+            $('#GeoCodeVillageGeoCodeZilaId').change(function() {
+            var selectvalue = $(this).val();
+            var pathname = window.location.pathname;
+            var path = pathname.split('/add');
+            path = path[0] + "/getUpaZila";
+            //var data = 'id=' + selectvalue;
+            $("#GeoCodeVillageGeoCodeUpazilaId").empty();
+            $.ajax({
+                url : path,
+                type : "POST",
+                dataType : 'json',
+                data : {
+                    geo_code_zila_id : selectvalue
+                },
+                success : function(data) {
+                    
+                    $("#GeoCodeVillageGeoCodeUpazilaId").empty();
+                    $("#GeoCodeVillageGeoCodeUpazilaId").append($("<option />").val("").text(""));
+                    upaZilaCode = new Array();
+                    $.each(data, function(index, element) { 
+                        $("#GeoCodeVillageGeoCodeUpazilaId").append($("<option />").val(element.GeoCodeUpazila.id).text(element.GeoCodeUpazila.upzila_name));
+                    });
+                }
+            });
+            }); 
+            
+         
+ //  GET UNION        
+            
+            $('#GeoCodeVillageGeoCodeUpazilaId').change(function() {
+            var selectvalue = $(this).val();
+            var pathname = window.location.pathname;
+            var path = pathname.split('/add');
+            path = path[0] + "/getUnion";
+            //var data = 'id=' + selectvalue;
+            $("#GeoCodeVillageGeoCodeUnionId").empty();
+            $.ajax({
+                url : path,
+                type : "POST",
+                dataType : 'json',
+                data : {
+                    geo_code_upazila_id : selectvalue
+                },
+                success : function(data) {
+                    
+                    $("#GeoCodeVillageGeoCodeUnionId").empty();
+                    $("#GeoCodeVillageGeoCodeUnionId").append($("<option />").val("").text(""));
+                    var unionCode = new Array();
+                    $.each(data, function(index, element) { 
+                        $("#GeoCodeVillageGeoCodeUnionId").append($("<option />").val(element.GeoCodeUnion.id).text(element.GeoCodeUnion.union_name));
+                    });
+                }
+            });
+            });            
+            
+
+ 
+  //  GET MAUZA     
+            
+            $('#GeoCodeVillageGeoCodeUnionId').change(function() {
+            var selectvalue = $(this).val();
+            var pathname = window.location.pathname;
+            var path = pathname.split('/add');
+            path = path[0] + "/getMuza";
+            //var data = 'id=' + selectvalue;
+            $("#GeoCodeVillageMuzaId").empty();
+            $.ajax({
+                url : path,
+                type : "POST",
+                dataType : 'json',
+                data : {
+                    geo_code_union_id : selectvalue
+                },
+                success : function(data) {
+                    
+                    $("#GeoCodeVillageMuzaId").empty();
+                    $("#GeoCodeVillageMuzaId").append($("<option />").val("").text(""));
+                    var unionMauza = new Array();
+                    $.each(data, function(index, element) { 
+                        $("#GeoCodeVillageMuzaId").append($("<option />").val(element.GeoCodeMauza.id).text(element.GeoCodeMauza.mauza_name));
+                    });
+                }
+            });
+            });            
+            
+ });// End of Document ready
+       
+</script>
+
+
+
+
+
+<?php echo $this->Session->flash(); ?>
+
+<div class="geoCodeVillages form">
+<?php echo $this->Form->create('GeoCodeVillage'); ?>
+	<fieldset>
+		<legend><?php echo __('Add Village'); ?></legend>
+	<?php
+	    echo $this->Form->input('divns', array('empty' => '','label' => 'বিভাগ'));         
+        echo $this->Form->input('geo_code_zila_id', array('empty' => '', 'label' => 'জেলা'));            
+        echo $this->Form->input('geo_code_upazila_id', array('empty' => '','label' => 'উপজেলা/থানা'));
+        echo $this->Form->input('geo_code_union_id', array('empty' => '', 'label' => 'ইউনিয়ন/ওয়ার্ড'));
+		echo $this->Form->input('muza_id', array('empty' => '','label' => 'মৌজা  নাম'));
+		echo $this->Form->input('village_code', array('empty' => '','label' => 'গ্রামের  কোড'));
+		echo $this->Form->input('village_name', array('empty' => '','label' => 'গ্রামের  নাম'));
+		echo $this->Form->input('geo_code_rmo_id', array('empty' => '','label' => 'আর.এম.ও'));
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit')); ?>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+
+		<li><?php echo $this->Html->link(__('List Villages'), array('action' => 'index')); ?></li>
+		
+	</ul>
+</div>
