@@ -1,0 +1,300 @@
+
+<div class="row">
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row flow-heading">
+                    <div class="col-md-2">
+                        <h4>Name</h4>
+                    </div>
+
+
+                    <div class="col-md-10 hiddenablewidth">
+                        <div class="row"><h5 class="text-center">10 days workflow</h5></div>
+                        <div class="row">
+                                <table class="table cal-header">
+                                    <thead>
+                                    <tr>
+                                    <?php
+                                    $mytime = Carbon\Carbon::now();
+                                    for($i=0;$i<14;$i++){
+                                        if($mytime->format('D') == 'Sat' || $mytime->format('D') == 'Sun'){
+                                        }else{
+                                            echo '<td>'.$mytime->format('d').'</td>';
+                                        }
+                                        $mytime->addDay();
+                                    }
+                                    ?>
+                                    </tr>
+                                    </thead>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+
+                @if($users)
+                    @foreach($users as $user)
+                        <div class="row working-data-row">
+                            <div class="col-md-2">
+                                {!! $user->nick_name !!}
+                                <button class="popper" data-toggle="popover"><span class="glyphicon glyphicon-forward"></span> </button>
+                                <div class="popper-content hide">
+                                    <h5 class="pop-heading">I am the leader of this projects.</h5>
+                                        @if($user->leader)
+                                            <ul>
+                                            @foreach($user->leader as $leader)
+                                                <li>{!! $leader->project_no.' '.$leader->project_text !!}</li>
+                                            @endforeach
+                                            </ul>
+                                        @endif
+                                </div>
+                            </div>
+                            <div class="col-md-10 calender-list-here">
+                                <div class="row bg-cal-row">
+                                    <table class="table bg-date-row">
+                                        <tbody>
+                                        <tr>
+                                            <?php
+                                            $mytime = Carbon\Carbon::now();
+                                            for ($i = 0; $i < 14; $i++) {
+                                            if ($mytime->format('D') == 'Sat' || $mytime->format('D') == 'Sun') {
+                                            } else { ?>
+                                            <td height="100%" class="fc-day fc-widget-content fc-mon fc-past">
+                                                <ul class="weeks2-inline list-unstyled">
+                                                    @foreach($user->calworks as $task)
+                                                        @if($task->start_time <= $mytime && $task->next_deadline >= $mytime)
+                                                            <li style="background-color: {!! $task->project->projectmanager->color_code !!};">{!! $task->project->project_no.' '.$task->project->project_text !!}</li>
+                                                        @endif
+                                                    @endforeach
+                                                </ul>
+                                            </td>
+                                            <?php  } $mytime->addDay(); } ?>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-10 changeablewidth hidden">
+                                <ul class="list-inline sort_list queue_sortable_list"
+                                    id="queue_dropable_{!! $user->id !!}"
+                                    data-uid="{!! $user->id !!}">
+                                    @if($user->works)
+                                        @foreach($user->works as $work)
+                                            @if($work->status == 'queued')
+                                                <li
+                                                        class="project-{!! $work->project->id !!}
+                                                             @if($tl_id != $work->project->projectmanager->id) ignore-elements @else item-elements @endif"
+                                                        data-area="queue"
+                                                        data-pid="{!! $work->project->id !!}"
+                                                        data-wid="{!! $work->id !!}"
+                                                        data-uid="{!! $work->user_id !!}"
+                                                        >
+                                                    <div class="panel">
+                                                        @if($tl_id == $work->project->projectmanager->id)
+                                                        <div class="panel-heading"
+                                                             style="background-color: {!! $work->project->projectmanager->color_code !!};">
+                                                            <h3 class="panel-title">
+                                                                <a data-toggle="collapse"
+                                                                   href="#collapse_{!! $work->user_id.$work->project->id.$work->id !!}"
+                                                                   aria-expanded="false"
+                                                                   aria-controls="collapse_{!! $work->user_id.$work->project->id.$work->id !!}">
+                                                                    {!! $work->project->project_no.' '.$work->project->project_text !!}
+                                                                </a>
+                                                            </h3>
+                                                        </div>
+                                                        <div id="collapse_{!! $work->user_id.$work->project->id.$work->id !!}"
+                                                             class="panel-collapse collapse" role="tabpanel"
+                                                             aria-labelledby="heading{!! $work->user_id.$work->project->id.$work->id !!}">
+
+                                                        </div>
+                                                        @else
+                                                            <div class="panel-heading"
+                                                                 style="background-color: {!! $work->project->projectmanager->color_code !!};">
+                                                                <h3 class="panel-title">
+                                                                        {!! $work->project->project_no.' '.$work->project->project_text !!}
+                                                                </h3>
+                                                            </div>
+                                                        @endif
+                                                    </div>
+                                                </li>
+                                            @endif
+                                        @endforeach
+                                    @endif
+                                </ul>
+                            </div>
+
+                        </div>
+                    @endforeach
+                @endif
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">With Studio</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-inline sort_list studio_sortable_list" id="queue_dropable"
+                            data-area="studio">
+                            @if($studio_works)
+                            <?php //var_dump($data['data']); ?>
+                            <?php //var_dump($user_works); ?>
+                                @foreach($studio_works as $work)
+                                    @if($work->status == 'development')
+                                        <li class="project-{!! $work->id !!}
+                                        @if($tl_id != $work->project_manager) ignore-elements @else item-elements @endif"
+                                            data-pid="{!! $work->id !!}">
+                                            <div class="panel">
+                                                <div class="panel-heading"
+                                                     style="background-color: {!! $work->projectmanager->color_code !!};">
+                                                    <a href="{{route('reBrief',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">
+                                                        <h3 class="panel-title">{{  $work->project_no.' '.$work->project_text }}</h3>
+                                                    </a>
+                                                </div>
+                                                <!-- <div class="panel-body">
+                                                    <a href="{{route('review',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">Review</a>
+                                                    <a href="{{route('reBrief',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">Re brief</a>
+                                                </div> -->
+                                            </div>
+
+                                        </li>
+                                    @endif
+                                @endforeach
+                            @endif
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">With Client Service</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-inline sort_list client_sortable_list" id="client_dropable"
+                            data-area="client">
+                            @if($studio_works)
+                                @foreach($studio_works as $work)
+                                    @if($work->status == 'default' || $work->status == 'studio-feedback')
+                                        <li class="project-{!! $work->id !!}
+                                        @if($tl_id != $work->project_manager) ignore-elements @else item-elements @endif"
+                                            data-pid="{!! $work->id !!}">
+                                            <!-- <div class="panel">
+                                                <div class="panel-heading"
+                                                     style="background-color: {!! $work->projectmanager->color_code !!};">
+                                                    <h3 class="panel-title">{!! $work->project_no.' '.$work->project_text !!}</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    @if($work->status == 'default')
+                                                        <a href="{{route('brief',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">Brief</a>
+                                                    @endif
+                                                    @if($work->status == 'studio-feedback')
+                                                            <a href="{{route('clientFeedback',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">Client Feedback</a>
+                                                            <a href="{{route('reBrief',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">Re Brief</a>
+                                                    @endif
+                                                </div>
+                                            </div> -->
+
+                                            <div class="panel">
+                                                <div class="panel-heading"
+                                                     style="background-color: {!! $work->projectmanager->color_code !!};">
+                                                     @if($work->status == 'default')
+                                                         <a href="{{route('clientReview',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">
+                                                            <h3 class="panel-title">{!! $work->project_no.' '.$work->project_text !!}</h3>                             
+                                                         </a>
+                                                     @endif
+
+                                                     @if($work->status == 'studio-feedback')
+                                                         <a href="{{route('clientFeedback',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">
+                                                            <h3 class="panel-title">{!! $work->project_no.' '.$work->project_text !!}</h3>                                
+                                                         </a>
+                                                         <a href="{{route('reBrief',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">
+                                                            <h3 class="panel-title">{!! $work->project_no.' '.$work->project_text !!}</h3>                             
+                                                         </a>
+                                                     @endif
+                                                </div>
+                                            </div>
+                                        </li>
+                                    @endif
+                                @endforeach
+                            @endif
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">With Client</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-inline sort_list client_sortable_list" id="client_dropable"
+                            data-area="client">
+                            @if($studio_works)
+                                @foreach($studio_works as $work)
+                                    @if($work->status == 'client-feedback')
+                                        <li class="project-{!! $work->id !!}
+                                        @if($tl_id != $work->project_manager) ignore-elements @else item-elements @endif"
+                                            data-pid="{!! $work->id !!}">
+                                            <div class="panel">
+                                                <div class="panel-heading"
+                                                     style="background-color: {!! $work->projectmanager->color_code !!};">
+                                                    <h3 class="panel-title">{!! $work->project_no.' '.$work->project_text !!}</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <a href="{{route('reBrief',$work->id)}}" class="brief_this" data-toggle="modal" data-target="#briefModal" data-remote="false">Re Brief</a>
+                                                    <a href="{{route('closeProject',$work->id)}}" onclick="return confirm('Are you sure?')">Close</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    @endif
+                                @endforeach
+                            @endif
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- brief modal -->
+<!-- Default bootstrap modal example -->
+<div class="modal fade" id="briefModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+<!-- Re-Brief Modal -->
+<div id="rebrModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+   <div class="modal-content">
+        <!-- sajjad -->
+    </div>
+  </div>
+</div>
+
+                <?php //print_r($user_works);  ?>
+
+{{-- script will goes here --}}
+<script>
+    var dynamic_link_url = '{!! route('workflowDynamic') !!}';
+    var post_working = '{!! route('postToWorking') !!}';
+    var post_queue = '{!! route('toQueue') !!}';
+    var studio_to_client = '{!! route('studioToClient') !!}';
+    var client_to_studio = '{!! route('clientToStudio') !!}';
+</script>
+{!! Html::script('assetes/js/pm.js') !!}
