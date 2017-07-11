@@ -1,0 +1,2572 @@
+2017-06-17 15:19:37 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 10]
+Trace:
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:19:37 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 165]
+Trace:
+include - APP/View/Layouts/default.ctp, line 165
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:19:37 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 182]
+Trace:
+include - APP/View/Layouts/default.ctp, line 182
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:19:37 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 265]
+Trace:
+include - APP/View/Layouts/default.ctp, line 265
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:13 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 10]
+Trace:
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:13 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 165]
+Trace:
+include - APP/View/Layouts/default.ctp, line 165
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:13 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 182]
+Trace:
+include - APP/View/Layouts/default.ctp, line 182
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:13 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 265]
+Trace:
+include - APP/View/Layouts/default.ctp, line 265
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+PagesController::display() - APP/Controller/PagesController.php, line 68
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:37 Notice: Notice (8): Undefined index: Categories in [/home/pikdish/public_html/restaurant/app/Controller/ItemsController.php, line 332]
+Trace:
+ItemsController::index() - APP/Controller/ItemsController.php, line 332
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:37 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 10]
+Trace:
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:37 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 165]
+Trace:
+include - APP/View/Layouts/default.ctp, line 165
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:37 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 182]
+Trace:
+include - APP/View/Layouts/default.ctp, line 182
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:37 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 265]
+Trace:
+include - APP/View/Layouts/default.ctp, line 265
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:38 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/app/Controller/ItemsController.php, line 341]
+Trace:
+ItemsController::getJson() - APP/Controller/ItemsController.php, line 341
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:45 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Categories/index.ctp, line 72]
+Trace:
+include - APP/View/Categories/index.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:45 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 10]
+Trace:
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:45 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 165]
+Trace:
+include - APP/View/Layouts/default.ctp, line 165
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:45 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 182]
+Trace:
+include - APP/View/Layouts/default.ctp, line 182
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:20:45 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 265]
+Trace:
+include - APP/View/Layouts/default.ctp, line 265
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:36:20 Notice: Notice (8): Undefined variable: months in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 136]
+Trace:
+include - APP/View/Wallets/index.ctp, line 136
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 15:56:39 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 10]
+Trace:
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:39 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 165]
+Trace:
+include - APP/View/Layouts/default.ctp, line 165
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:39 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 182]
+Trace:
+include - APP/View/Layouts/default.ctp, line 182
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:39 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 265]
+Trace:
+include - APP/View/Layouts/default.ctp, line 265
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:57 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 10]
+Trace:
+include - APP/View/Layouts/default.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:57 Notice: Notice (8): Undefined variable: restro_info in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 165]
+Trace:
+include - APP/View/Layouts/default.ctp, line 165
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:57 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 182]
+Trace:
+include - APP/View/Layouts/default.ctp, line 182
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 15:56:57 Notice: Notice (8): Undefined variable: userArr in [/home/pikdish/public_html/restaurant/app/View/Layouts/default.ctp, line 265]
+Trace:
+include - APP/View/Layouts/default.ctp, line 265
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::renderLayout() - CORE/Cake/View/View.php, line 546
+View::render() - CORE/Cake/View/View.php, line 481
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 292
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 260
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 190
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 970
+App::shutdown() - CORE/Cake/Core/App.php, line 943
+[main] - [internal], line ??
+
+2017-06-17 16:00:39 Notice: Notice (8): Undefined index: print_name in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 772]
+Trace:
+OrdersController::getBillRequest() - APP/Controller/OrdersController.php, line 772
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:00:39 Notice: Notice (8): Undefined index: print_name in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 772]
+Trace:
+OrdersController::getBillRequest() - APP/Controller/OrdersController.php, line 772
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:34:30 Notice: Notice (8): Undefined variable: restaurant_trans_dr_total in [/home/pikdish/public_html/restaurant/app/Controller/WalletsController.php, line 57]
+Trace:
+WalletsController::index() - APP/Controller/WalletsController.php, line 57
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:45:44 Notice: Notice (8): Undefined variable: sortname in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 25]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:45:44 Notice: Notice (8): Undefined variable: sortorder in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 25]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:45:44 Notice: Notice (8): Undefined variable: rp in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 25]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:45:44 Notice: Notice (8): Undefined variable: start in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 25]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 16:45:44 Notice: Notice (8): Undefined variable: where in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 25]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:11:46 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:11:46 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:11:50 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:11:50 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:11 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:11 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:14 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:14 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:21 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:21 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:24 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:12:24 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:14:21 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:14:21 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:14:28 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:14:28 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:14:32 Notice: Notice (8): Undefined variable: months in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 136]
+Trace:
+include - APP/View/Wallets/index.ctp, line 136
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:12 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:12 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:16 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:16 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:27 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:27 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:30 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:30 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:32 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:32 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:35 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:15:35 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:16:12 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:16:12 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:16:16 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:16:16 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:17:32 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:17:32 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:17:34 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:17:34 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:18:47 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:18:47 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:18:50 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:18:50 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:18:53 Notice: Notice (8): Undefined offset: 0 in [/home/pikdish/public_html/restaurant/lib/Cake/basics.php, line 254]
+Trace:
+pluginSplit - CORE/Cake/basics.php, line 254
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:18:53 Notice: Notice (8): Undefined offset: 1 in [/home/pikdish/public_html/restaurant/lib/Cake/Controller/Controller.php, line 738]
+Trace:
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+DashboardController::index() - APP/Controller/DashboardController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:22:06 Notice: Notice (8): Undefined variable: items in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 28]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:22:08 Notice: Notice (8): Undefined variable: items in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 28]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:22:23 Notice: Notice (8): Undefined variable: items in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 28]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:22:25 Notice: Notice (8): Undefined variable: items in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 28]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:22:26 Notice: Notice (8): Undefined variable: items in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 28]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:22:28 Notice: Notice (8): Undefined variable: items in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 28]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 28
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: vch_date in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 43]
+Trace:
+include - APP/View/Wallets/index.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: ref in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 44]
+Trace:
+include - APP/View/Wallets/index.ctp, line 44
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 45]
+Trace:
+include - APP/View/Wallets/index.ctp, line 45
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 47]
+Trace:
+include - APP/View/Wallets/index.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: vch_date in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 43]
+Trace:
+include - APP/View/Wallets/index.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: ref in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 44]
+Trace:
+include - APP/View/Wallets/index.ctp, line 44
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 45]
+Trace:
+include - APP/View/Wallets/index.ctp, line 45
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:47:54 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 47]
+Trace:
+include - APP/View/Wallets/index.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: vch_date in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 44]
+Trace:
+include - APP/View/Wallets/index.ctp, line 44
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: ref in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 45]
+Trace:
+include - APP/View/Wallets/index.ctp, line 45
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 46]
+Trace:
+include - APP/View/Wallets/index.ctp, line 46
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 48]
+Trace:
+include - APP/View/Wallets/index.ctp, line 48
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: vch_date in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 44]
+Trace:
+include - APP/View/Wallets/index.ctp, line 44
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: ref in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 45]
+Trace:
+include - APP/View/Wallets/index.ctp, line 45
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 46]
+Trace:
+include - APP/View/Wallets/index.ctp, line 46
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:49:03 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 48]
+Trace:
+include - APP/View/Wallets/index.ctp, line 48
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:52:08 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 46]
+Trace:
+include - APP/View/Wallets/index.ctp, line 46
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:52:08 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 48]
+Trace:
+include - APP/View/Wallets/index.ctp, line 48
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:52:08 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 46]
+Trace:
+include - APP/View/Wallets/index.ctp, line 46
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:52:08 Notice: Notice (8): Undefined index: Amount in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 48]
+Trace:
+include - APP/View/Wallets/index.ctp, line 48
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1204]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1204
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1219]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1219
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1225]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1225
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1227]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrderComments in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1350]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1350
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1385]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1385
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1396]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1396
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1397]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1397
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1398]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1398
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1204]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1204
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1219]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1219
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1225]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1225
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1227]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrderComments in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1350]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1350
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1385]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1385
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1396]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1396
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1397]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1397
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:10 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1398]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1398
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1204]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1204
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1219]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1219
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1225]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1225
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1227]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrderComments in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1350]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1350
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1385]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1385
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1396]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1396
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1397]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1397
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:11 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1398]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1398
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1204]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1204
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1219]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1219
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1225]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1225
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1227]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrderComments in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1350]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1350
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1385]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1385
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1396]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1396
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1397]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1397
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1398]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1398
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1204]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1204
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1206]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1206
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1209]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1213]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1213
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1219]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1219
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1225]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1225
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1227]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1227
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrderComments in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1350]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1350
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1385]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1385
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1396]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1396
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1397]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1397
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 17:58:12 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 1398]
+Trace:
+OrdersController::getDialogBox() - APP/Controller/OrdersController.php, line 1398
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:04:38 Notice: Notice (8): Undefined index: Portions in [/home/pikdish/public_html/restaurant/app/Controller/PortionsController.php, line 41]
+Trace:
+PortionsController::add() - APP/Controller/PortionsController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:07:49 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:07:50 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:07:51 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:07:55 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 53]
+Trace:
+include - APP/View/Wallets/index.ctp, line 53
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:08:56 Notice: Notice (8): Undefined variable: 582.00 in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 53]
+Trace:
+include - APP/View/Wallets/index.ctp, line 53
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:10:30 Notice: Notice (8): Undefined index: gst_precentage in [/home/pikdish/public_html/restaurant/app/View/Items/edit.ctp, line 96]
+Trace:
+include - APP/View/Items/edit.ctp, line 96
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:10:30 Notice: Notice (8): Undefined index: gst_applicability in [/home/pikdish/public_html/restaurant/app/View/Items/edit.ctp, line 96]
+Trace:
+include - APP/View/Items/edit.ctp, line 96
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:10:30 Notice: Notice (8): Undefined index: gst_applicability in [/home/pikdish/public_html/restaurant/app/View/Items/edit.ctp, line 193]
+Trace:
+include - APP/View/Items/edit.ctp, line 193
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:11:08 Notice: Notice (8): Undefined index: gst_precentage in [/home/pikdish/public_html/restaurant/app/View/Items/edit.ctp, line 96]
+Trace:
+include - APP/View/Items/edit.ctp, line 96
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:11:08 Notice: Notice (8): Undefined index: gst_applicability in [/home/pikdish/public_html/restaurant/app/View/Items/edit.ctp, line 96]
+Trace:
+include - APP/View/Items/edit.ctp, line 96
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:11:08 Notice: Notice (8): Undefined index: gst_applicability in [/home/pikdish/public_html/restaurant/app/View/Items/edit.ctp, line 193]
+Trace:
+include - APP/View/Items/edit.ctp, line 193
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:14:56 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:15:12 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:15:14 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:15:16 Notice: Notice (8): Array to string conversion in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 30]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:39:28 Notice: Notice (8): Undefined variable: w in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 41]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:39:30 Notice: Notice (8): Undefined variable: w in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 41]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:39:31 Notice: Notice (8): Undefined variable: w in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 41]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 41
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:41:39 Notice: Notice (8): Undefined index: Total in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 45]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 45
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:41:41 Notice: Notice (8): Undefined index: Total in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 45]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 45
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 18:46:16 Notice: Notice (8): Undefined variable: restaurant_trans_dr_total in [/home/pikdish/public_html/restaurant/app/Controller/DashboardController.php, line 42]
+Trace:
+DashboardController::index() - APP/Controller/DashboardController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 19:10:21 Notice: Notice (8): Undefined variable: variable in [/home/pikdish/public_html/restaurant/app/View/Wallets/index.ctp, line 78]
+Trace:
+include - APP/View/Wallets/index.ctp, line 78
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 69]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 69
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 74]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 74
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrderExtras in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 75]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 82]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 84]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrderTaxs in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 87]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 102]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 102
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 110]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 110
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:04 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 114]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 114
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 69]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 69
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 74]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 74
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrderExtras in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 75]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 82]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 84]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrderTaxs in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 87]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 102]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 102
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 110]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 110
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:24 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 114]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 114
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 69]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 69
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 74]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 74
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrderExtras in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 75]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 82]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 84]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrderTaxs in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 87]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 102]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 102
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 110]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 110
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:28:41 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 114]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 114
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 69]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 69
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 74]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 74
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrderExtras in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 75]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 75
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 82]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersH in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 84]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrderTaxs in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 87]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 102]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 102
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 110]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 110
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-17 20:31:48 Notice: Notice (8): Undefined index: OrdersL in [/home/pikdish/public_html/restaurant/app/Controller/OrdersController.php, line 114]
+Trace:
+OrdersController::cancelOrder() - APP/Controller/OrdersController.php, line 114
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-18 11:04:51 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/View/Orders/index.ctp, line 379]
+Trace:
+include - APP/View/Orders/index.ctp, line 379
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-18 11:04:51 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/View/Orders/index.ctp, line 379]
+Trace:
+include - APP/View/Orders/index.ctp, line 379
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-18 11:04:57 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/View/Orders/index.ctp, line 379]
+Trace:
+include - APP/View/Orders/index.ctp, line 379
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+
+2017-06-18 11:04:57 Notice: Notice (8): Undefined index: User in [/home/pikdish/public_html/restaurant/app/View/Orders/index.ctp, line 379]
+Trace:
+include - APP/View/Orders/index.ctp, line 379
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 108
+

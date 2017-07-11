@@ -1,0 +1,382 @@
+<style>
+ .error
+	   {
+		   padding-left:10px;
+		   color:red
+	   }
+	   input
+	   {
+		   padding:5 5 5 5;
+		   border-radius: 4px !important;
+		   width:100% !important;
+		   height:25px !important
+		   
+		   
+	   }
+	   textarea
+	   {
+		   width:100% !important;
+	   }
+	   input[type=radio]{width:15% !important;
+	   margin:0px !important}
+
+	   input[type=checkbox]{width:15% !important;
+	   margin:0px !important}
+	   .tmp:focus
+	   {
+		       border: 1px solid #ccc !important;
+
+	   }
+	   
+</style>
+<div class="right_col" role="main">
+<div class="">
+  <div class="page-title">
+    <div class="title_left">
+      <h3>Edit Items</h3>
+    </div>
+    <div class="title_right">
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="x_panel"> <?php echo $this->Session->flash(); ?>
+        <div class="x_content"> <br />
+        
+          <?php echo $this->Form->create('Item',array('url'=>'edit','method'=>'post','name'=>'editForm','class'=>'form-horizontal form-label-left') ); 
+		        echo $this->Form->hidden('Item.id',array("value"=>$this->request->data[0]['Item']['id']));
+		  ?>
+          
+           <div class="container">
+            <div class="row clearfix">
+              
+                <table class="table table-bordered table-hover" id="tab_logic">
+				   <thead>
+                    <tr class="addr1" style="background:#FF9" >
+                      
+					  <th width="15%" class="text-center">Item Name*</th>
+                      <th width="10%" class="text-center">Food Type*</th>
+                      <th width="20%" class="text-center">Ingredients</th>
+                      <th width="13%" class="text-center">Preparation Time(minutes)*</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr  class="tdr addr1">
+                      
+                        <td>
+                          <input type="hidden" name="data[Item][category_id]" value="<?=$this->Session->read('cat_id')?>" />
+                          <input type="hidden" name="data[Item][restuarant_id]" value="<?=$this->Session->read('restro_id')?>" />
+                          <input name="data[Item][item_name]" required="required" class="form-control col-md-7 col-xs-12" autofocus="autofocus" placeholder="Item Name" value="<?=$this->request->data[0]['Item']['item_name']?>" >
+                        </td>
+                        <td>
+                         <? if($this->request->data[0]['ItemsRate']['food_type_id'] == 0) {?> 
+                            <label class="" for="first-name">Veg </label><input  type="radio" name="data[ItemsRate][food_type_id]" value="0" checked="checked" /><label  class="" for="first-name">Non-Veg </label><input  type="radio" value="1" name="data[ItemsRate][food_type_id]" required/>
+                            <? } else {?>
+                            <label class="" for="first-name">Veg </label><input  type="radio" name="data[ItemsRate][food_type_id]" value="0"  /><label  class="" for="first-name">Non-Veg </label><input  type="radio" value="1" name="data[ItemsRate][food_type_id]" required checked="checked"/>
+                            <? } ?>
+                        </td>
+                        <td>
+                            <textarea name="data[Item][ingredients]"   class="form-control col-md-7 col-xs-12"  placeholder="Ingredients"><?=$this->request->data[0]['Item']['ingredients']?></textarea>
+                        </td>
+                        <td>
+                         <?
+						   $tmp = explode(":", $this->request->data[0]['Item']['preparation_time']);
+						   $min = ($tmp[0]*60)+($tmp[1]);
+                         ?>
+                            <input name="data[Item][preparation_time]"  class="form-control col-md-7 col-xs-12"  placeholder="Preparation Time"   min=1 type="number" required  value="<?=$min?>">
+                         </td>
+                      
+                    </tr>
+                    <tr class="addr1">
+                     <!--  <th width="12%" class="text-center">
+                           <label>GST Applicable? </label>
+                           <input type="checkbox" name="data[Item][gst_applicability]" value="1" style="width:15%" 
+                           onchange="if(this.checked){$('#_gst_0').attr('disabled',false).focus().val('<?=$this->request->data[0]['Item']['gst_precentage']?>');}else{$('#_gst_0').attr('disabled',true).val('');}" tabindex="1" <? if($this->request->data[0]['Item']['gst_applicability'] == 1){echo "checked";} 	?>   />
+                       </th> -->
+                       <th width="12%" class="text-center">
+                           <label>Discount Available? </label>
+                           <input type="checkbox" name="data[Item][discount_applicability]" value="1" style="width:15%" 
+                           onchange= "if(this.checked){$('#_discount_0').attr('disabled',false).focus().val('<?=$this->request->data[0]['Item']['discount']?>');$('._dis_radio_0_1').attr('disabled',false);$('#per_c').attr('checked',true);}
+                           else{$('#_discount_0').attr('disabled',true).val('');$('._dis_radio_0_1').attr('disabled',true);}" tabindex="2" <? if($this->request->data[0]['Item']['discount'] > 0){echo "checked";} ?> />
+                       </th>
+                       <th width="13%" class="" colspan="4" style="padding:0px;">
+                         <table style="width:100%" class="table-hover text-center" >
+                           <tr>
+                             <td style="width:66%">
+                            Rate*<br />
+                            <label>Portions Wise ?</label>
+                            <input id="portion_wise"  name="data[rate_type]" value="0" type="radio" 
+							<? 
+							/*if(count($this->request->data) > 1 || $this->request->data[0]['ItemsRate']['portion_id'] != $default_portion )
+							{
+							     echo "checked";	
+							}*/
+                            ?>  onchange="
+                            if(this.checked)
+                            {
+                              $('#portion_div_0').css('display','block');
+                              $('#ItemsRatePortionId_0').attr('required',true);
+                              $('#_rate_0').css('display','none').attr({'disabled':true,'required':false}).val(null);
+                            }
+                            " />
+                            <label>Single Plate </label>
+                            <input type="radio" id="single_wise" name="data[rate_type]"  value="1" 
+                            <? 
+							/*if(count($this->request->data) == 1 || $this->request->data[0]['ItemsRate']['portion_id'] == $default_portion )
+							{
+							     echo "checked";	
+							}*/
+                            ?> 
+                            onchange="
+                            if(this.checked)
+                            {
+                              $('#portion_div_0').css('display','none');
+                              $('#ItemsRatePortionId_0').attr('required',false);
+                              $('#ItemsRatePortionId_0' ).selectpicker('deselectAll');
+                              $('#ItemsRatePortionId_0').selectpicker('refresh');
+                              $('#rate_table_0').html('');
+                              $('#_rate_0').css('display','block').attr({'disabled':false,'required':true}).focus();
+                              
+                            }" />
+                            </td>
+                             <td style="width:34%; border-left:1px solid #ddd; height:75px; padding:0px 2px 0px 2px">Addons <br />
+                             <select name="data[ItemExtras][extras_id][]" id="ItemExtrasExtrasId_0" class="form-control selectpicker show-menu-arrow "  data-live-search="true" data-live-search-style="begins" title="Select Food Addons" multiple="multiple"  data-done-button="true" data-actions-box="true"  data-selected-text-format="count > 1" >
+           						<?PHP	   for($i=0;$i<count($extras);$i++)  {  ?>
+              						<option value="<?=$extras[$i]['Extras']['id']?>"><?=$extras[$i]['Extras']['name']?></option>
+		  						<? }?>
+           				</select>
+                        
+                             </td>
+                           </tr>
+                         </table>
+                       </th>
+                    </tr>
+                    <tr class="addr1">
+                     <!--  <td>
+                            <input id="_gst_0" name="data[Item][gst_precentage]" required="required" class="form-control col-md-7 col-xs-12"  placeholder="GST Precentage"    step="0.01" type="number" min=0 <? if($this->request->data[0]['Item']['gst_applicability'] == 1){echo "value='".$this->request->data[0]['Item']['gst_precentage']."'";}else {echo 'disabled="disabled"' ;} 	?> >
+                      </td> -->
+                      <td>
+                          <input id="_discount_0" name="data[Item][discount]" required="required" class="form-control col-md-7 col-xs-12"  placeholder="Discount Value" <?  echo $this->request->data[0]['Item']['discount'] > 0 ? "value='".$this->request->data[0]['Item']['discount']."'"  : 'disabled="disabled"' ;   echo $this->request->data[0]['Item']['discount_type'] ==  0 ? "step='0.01'" : "step='1'"; ?>  type="number" tabindex="3" min="0" >
+                          <br /><br /><label>Discount Type </label><br />
+                          <label>%</label>
+                          <input class="_dis_radio_0_1" id="per_c" type="radio" name="data[Item][discount_type]" value="0"  
+						  <? 
+						    if($this->request->data[0]['Item']['discount'] > 1)
+							{
+							  if($this->request->data[0]['Item']['discount_type'] == 0)
+							  {
+							    echo "checked";
+							  }
+							}
+							else
+							 {
+								 echo 'disabled="disabled"' ;
+							 } 	
+						  ?>
+                          onchange="
+                            if(this.checked)
+                            {
+                              $('#_discount_0').attr('step','0.01');
+                                                            
+                            }"   /><span> </span>
+                          <img src="<?=$imgpath?>rupess.png" />
+                          <input class="_dis_radio_0_1"   type="radio" value="1" name="data[Item][discount_type]" 
+						  <? 
+						    if($this->request->data[0]['Item']['discount'] > 1)
+							{
+							  if($this->request->data[0]['Item']['discount_type'] == 1)
+							  {
+							    echo "checked";
+							  }
+							}
+							else
+							 {
+								 echo 'disabled="disabled"' ;
+							 } 	
+						  ?> required onchange="
+                            if(this.checked)
+                            {
+                              $('#_discount_0').attr('step','1');
+                                                            
+                            }"/>
+                          
+                      </td>
+                      <td colspan="3">
+                        <div id="portion_div_0">
+                      
+                                             <select name="data[ItemsRate][portion_id][]" id="ItemsRatePortionId_0" class="form-control col-md-7 col-xs-12 
+                              selectpicker show-menu-arrow"  required
+                              data-live-search="true" data-live-search-style="begins" title="Select Food porstion" multiple="multiple" 
+                              style="height:20px" data-done-button="true" data-actions-box="true" onchange="get_portions(0)" data-selected-text-format="count > 4" >
+           						<?PHP	    for($i=0;$i<count($portions);$i++)  {  ?>
+              						<option value="<?=$portions[$i]['Portions']['id']?>"><?=$portions[$i]['Portions']['portion_name']?></option>
+		  						<? }?>
+           					 </select>               
+          					<br />
+                       <table  class="table table-bordered table-hover "  id="rate_table_0" style="width:100%; margin-top:0px">
+                       </table>
+                       </div>
+                       
+                          <input id="_rate_0" name="data[ItemsRate][rate]" required="required" class="form-control col-md-7 col-xs-12"  placeholder="Rate" disabled="disabled" style="display:none;width:45% !important" type="number" ><input type="hidden" name="data[ItemsRate][portion_id]" value="<?=$default_portion?>" />
+                      </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              
+            </div>
+           </div>
+          
+          <div class="form-group">
+            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+              <button type="submit" id="submit" class="btn btn-success">Submit</button>
+              <a href="<?php echo $path ?>items" class="btn btn-primary">Cancel</a> </div>
+          </div>
+          </form>
+          <div>
+                        <p>- Ctrl + S for Save Data</p>
+                        <p>- Ctrl + C for go to list page</p>
+                     
+                        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- /page content -->
+<script>
+$('body').on('keydown', 'input, select, textarea', function(e) {
+var self = $(this)
+  , form = self.parents('form:eq(0)')
+  , focusable
+  , next
+  , prev
+  ;
+
+if (e.shiftKey) {
+ if (e.keyCode == 13) {
+     focusable =   form.find('input,a,select,button,textarea').filter(':visible:not([readonly]):enabled');
+     prev = focusable.eq(focusable.index(this)-1); 
+
+     if (prev.length) {
+        prev.focus();
+     } else {
+        form.submit();
+    }
+  }
+}
+  else
+if (e.keyCode == 13) {
+    focusable = form.find('input,a,select,button,textarea').filter(':visible:not([readonly]):enabled');
+    next = focusable.eq(focusable.index(this)+1);
+    if (next.length) {
+        next.focus();
+    } else {
+        form.submit();
+    }
+    return false;
+}
+});
+$(document).ready(function(){
+	
+    $(document).bind('keydown', function(event) {
+      //19 for Mac Command+S
+     if (!( String.fromCharCode(event.which).toLowerCase() == 's' && event.ctrlKey) && !(event.which == 19)) return true;
+
+      event.preventDefault();
+      console.log("Ctrl-s pressed");
+$("#submit").click();
+      return false;
+
+   });
+
+
+//$('#ItemsRatePortionId').on('change',get_portions );
+
+
+
+	
+	
+});
+
+
+shortcut.add("Ctrl+C",function() {
+	window.location.href='<?php echo $path ?>items';
+
+});
+shortcut.add("Ctrl+A",function() {
+	addRow();
+
+});
+
+function get_portions(j) 
+{
+	    
+		label_arr = new  Array();
+		val_arr = new  Array();
+		
+		k = 0;
+	    $("#rate_table_0 td").each(function() 
+		{
+			
+			label_arr.push($(this).find("label").html());
+			val_arr[label_arr[k]]=$(this).find("input").val();
+			
+			k++;
+		});
+		
+		
+	    var str = "<tr>"; i=0;
+        $( "#ItemsRatePortionId_"+j+" option:selected" ).each(function() {
+			if(i!=0 && i%2==0) str+= "</tr><tr>" ;
+			if($.inArray($(this).text(),label_arr) == -1)
+			{	
+            str+='<td><label>'+$( this ).text()+'</label><input type="number" name="data['+(i+1)+'][ItemsRate][rate]" value=""  required placeholder="Rate" class="form-control col-md-7 col-xs-12 tmp" /><input type="hidden" name="data['+(i+1)+'][ItemsRate][portion_id]" value="'+$( this ).val()+'" /></td>';
+			}
+			else
+			{
+			str+='<td><label>'+$( this ).text()+'</label><input type="number" name="data['+(i+1)+'][ItemsRate][rate]" value="'+val_arr[$( this ).text()]+'"  required placeholder="Rate" class="form-control col-md-7 col-xs-12 tmp" /><input type="hidden" name="data['+(i+1)+'][ItemsRate][portion_id]" value="'+$( this ).val()+'" /></td>';
+				
+			}
+		    i++;
+		   });
+		str+="</tr>"
+		$("#rate_table_"+j).html(str);
+		
+		td_arr= null;
+		label_arr =null;	
+}
+
+   <? if(count($this->request->data) > 1 || $this->request->data[0]['ItemsRate']['portion_id'] != $default_portion )
+	{ ?>
+		$('#portion_wise').attr({"checked":true}).trigger("change")	;
+		var str = "<tr>";i=0;
+     <? 
+	    for($i = 0;$i < count($this->request->data) ; $i++) 
+	    {  
+	 ?>
+		$('#ItemsRatePortionId_0 option[value="<?=$this->request->data[$i]['ItemsRate']['portion_id']?>"]').attr('selected', true); 
+	    if(i!=0 && i%2==0) {str+= "</tr><tr>" ;}
+        str+='<td><label><?=$this->request->data[$i]['Portion']['portion_name']?></label><input type="number" name="data['+(i+1)+'][ItemsRate][rate]"  required placeholder="Rate" class="form-control col-md-7 col-xs-12 tmp" value="<?=$this->request->data[$i]['ItemsRate']['rate']?>" /><input type="hidden" name="data['+(i+1)+'][ItemsRate][portion_id]" value="<?=$this->request->data[$i]['ItemsRate']['portion_id']?>"  /></td>';
+		i++;
+	<? } ?>	  
+        str+="</tr>"
+		$("#rate_table_0").html(str);
+	<? }  else { ?>
+	   $('#single_wise').attr({"checked":true}).trigger("change");
+	   $('#_rate_0').val(<?=$this->request->data[0]['ItemsRate']['rate']?>)
+	<? } 
+	
+	   foreach($items_extra as $val) 
+	    { ?>
+			  $('#ItemExtrasExtrasId_0 option[value="<?=$val?>"]').attr('selected', true); 
+		<? }
+	
+	?>
+//items_extra
+</script>
