@@ -11,6 +11,8 @@ $access_token = '3225959616-3hhQEsrQNk3rgzWvy2rIZK31xtlnKUfoMP8giEm';
 $access_token_secret = '8HOcS4CCsE09fiYP2Wojf6kdmXAiVOjHQZy76HudR5lZB';
 
 
+
+
 $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token, $access_token_secret);
 
 $statuses = $connection->get("search/tweets", ["q" => 'iteachmath', "count" => 100, "exclude_replies" => false, "exclude" => "retweets"]);
