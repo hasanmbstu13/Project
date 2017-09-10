@@ -1,0 +1,10 @@
+<?PHP
+  App::uses('Model','Model');
+  class OrdersH extends Model
+  {
+	  public $actsAs = array('Containable');
+	  public $useTable = "orders_h";
+	  public $belongsTo=array('RestaurantTables');
+	  public $hasMany = array("OrdersL","OrderComments","OrderTaxs");
+  }
+
