@@ -1,0 +1,18 @@
+<?php
+
+class DATABASE_CONFIG {
+		
+		var $default = array(
+                'datasource' => 'Database/Mysql',
+                'driver' => 'mysqli',
+                'persistent' => false,
+                'host' => 'localhost',
+                'port' => '1521',
+                'login' => 'root',
+                'password' => '',
+                'database' => '2016_surjodoy1',
+                'prefix' => ''
+                );    
+    
+	
+}
