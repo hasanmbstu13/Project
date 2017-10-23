@@ -293,4 +293,4 @@ if(table_width >= 1000)
 
 
 </script>
-<? echo ($this->Js->writeBuffer());?>
+<?php echo ($this->Js->writeBuffer());?>

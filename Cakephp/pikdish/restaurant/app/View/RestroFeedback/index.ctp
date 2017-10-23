@@ -339,4 +339,4 @@ function details(id)
 
 <div id="dialog" style="display:none" ></div>
 
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>

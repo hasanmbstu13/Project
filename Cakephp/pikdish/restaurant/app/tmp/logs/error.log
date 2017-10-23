@@ -57276,3 +57276,99 @@ Request URL: /pikdish/restaurant/css/jqGrid/css/ui.jqgrid.css
 Stack Trace:
 #0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-07-19 12:21:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'pikdish_restaurant\'',
+  'enabled' => true,
+)
+Request URL: /pikdish/restaurant/
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\Datasource\DboSource.php(267): Mysql->connect()
+#1 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\Model.php(3653): Model->setSource('settings')
+#5 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#6 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#7 E:\SERVER\htdocs\pikdish\restaurant\app\Controller\AppController.php(110): Model->find('first', Array)
+#8 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Event\CakeEventManager.php(243): AppController->beforeFilter(Object(CakeEvent))
+#9 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#10 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#11 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-07-19 12:21:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pikdish/restaurant/css/jqGrid/css/ui.jqgrid.css
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-07-19 12:21:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pikdish/restaurant/css/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.css
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-07-19 12:21:31 Error: [ParseError] syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+Request URL: /pikdish/restaurant/orders
+Stack Trace:
+#0 [internal function]: App::load('OrdersControlle...')
+#1 [internal function]: spl_autoload_call('OrdersControlle...')
+#2 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(266): class_exists('OrdersControlle...')
+#3 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-07-19 12:21:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pikdish/restaurant/css/jqGrid/css/ui.jqgrid.css
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-07-19 12:21:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pikdish/restaurant/css/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.css
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-07-19 12:21:37 Error: [ParseError] syntax error, unexpected end of file
+Request URL: /pikdish/restaurant/complete_orders
+Stack Trace:
+#0 [internal function]: App::load('CompleteOrdersC...')
+#1 [internal function]: spl_autoload_call('CompleteOrdersC...')
+#2 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(266): class_exists('CompleteOrdersC...')
+#3 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 E:\SERVER\htdocs\pikdish\restaurant\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-07-19 12:21:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pikdish/restaurant/css/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.css
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-07-19 12:21:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pikdish/restaurant/css/jqGrid/css/ui.jqgrid.css
+Stack Trace:
+#0 E:\SERVER\htdocs\pikdish\restaurant\app\webroot\index.php(107): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

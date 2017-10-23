@@ -97,11 +97,11 @@ class ReconciliationsController extends AppController {
 
 		$data = $this->RestaurantTransaction->find('all', array(
 			 'fields' => array(
-			 					'Restaurant.restaurant_name AS Restaurant_Name',
-			 					'RestaurantTransaction.restro_vch_no AS Restaurant_Vch_No',
-			 					'RestaurantTransaction.pikdish_vch_no AS Pikdish_Vch_No',
-			 					'RestaurantTransaction.ref AS Ref',
-			 					'RestaurantTransaction.cr_amt AS Amount'
+			 					'Restaurant.restaurant_name' => 'Restaurant_Name',
+			 					'RestaurantTransaction.restro_vch_no' => 'Restaurant_Vch_No',
+			 					'RestaurantTransaction.pikdish_vch_no' => 'Pikdish_Vch_No',
+			 					'RestaurantTransaction.ref' => 'Ref',
+			 					'RestaurantTransaction.cr_amt' => 'Amount'
 
 			 				  ),
 

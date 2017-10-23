@@ -491,6 +491,6 @@ function dialog_action(id,type)
 <div id="dialog" style="display:none" ></div>
 
   
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>
 	
   

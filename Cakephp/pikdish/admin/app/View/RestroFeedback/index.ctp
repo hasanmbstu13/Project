@@ -110,4 +110,4 @@ $(document).ready(function()
 });
 
 </script>
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>

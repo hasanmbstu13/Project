@@ -461,4 +461,4 @@ function load_contents(type=0,src_val=""){
 <div  id="loader" class="loader" style="width:75px; height:75px; position:fixed;top:50%;left:0; z-index:1000000001; display:none" ></div>
 <div  id="outer_loader" style="position:fixed; top:0; left:0px; background:#CCC; opacity:.6; height:100%; width:100%; z-index:1000000000; display:none" ></div>
 <div id="dialog-alert" title="Warning" style="display:none" >Please, select a row!</div>
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>

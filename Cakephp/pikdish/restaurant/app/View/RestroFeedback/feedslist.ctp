@@ -339,6 +339,6 @@ function load_contents(type=0,src_val=""){
 
 </script>
 <a  style="display:none" onclick="$('html, body').animate({ scrollTop: 0 }, 'slow');" id="back_to_top" class="on"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></span></a>    
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>
 	
   

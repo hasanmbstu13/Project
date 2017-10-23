@@ -484,6 +484,6 @@ function load_contents(type=0,src_val=""){
 <div id="dialog-response" title="" style="display:none" ></div>
 <div id="dialog" style="display:none" ></div>
 <div id="dialog-alert" title="Warning" style="display:none" >Please, select a row!</div>
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>
 	
   

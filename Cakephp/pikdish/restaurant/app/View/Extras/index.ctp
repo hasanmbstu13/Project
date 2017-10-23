@@ -231,7 +231,7 @@ if(table_width >= 1000)
 </div>
 <div id="dialog-alert" title="Warning" style="display:none" >Please, select row! </div>
 <div id="dialog-response" title="Delete Add ons" style="display:none" ></div>
-	<? echo ($this->Js->writeBuffer());?>
+	<?php echo ($this->Js->writeBuffer());?>
 	
     
     

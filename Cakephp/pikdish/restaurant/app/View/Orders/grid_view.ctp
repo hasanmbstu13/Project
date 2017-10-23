@@ -1201,4 +1201,4 @@ function ready_selected()
 <div id="dialog" style="display:none"></div>
 <div id="delivered" style="display:none; overflow-x:hidden; width:auto " title="On Table"></div>
 <div id="printable" style="width:270px; display:none "></div>
-<? echo ($this->Js->writeBuffer());?>
+<?php echo ($this->Js->writeBuffer());?>
