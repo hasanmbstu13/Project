@@ -1,0 +1,23 @@
+#adminHeader
+{
+    text-align: center;
+}
+
+#txtHtmlCode{
+    min-width: 97%;
+}
+
+.btnAdminForm
+{
+    width: 200px;
+}
+
+.paddingLeft100
+{
+    padding-left: 100px; 
+}
+
+.paddingTop5
+{
+    padding-top: 5px;
+}

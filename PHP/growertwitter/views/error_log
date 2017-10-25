@@ -1,0 +1,9 @@
+[29-Jun-2017 04:53:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/sylvangr/public_html/suite.social/coder/tv/include/functions/display_functions.php on line 6
+[29-Jun-2017 04:54:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/sylvangr/public_html/suite.social/coder/tv/include/functions/display_functions.php on line 10
+[29-Jun-2017 04:55:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/sylvangr/public_html/suite.social/coder/tv/include/functions/display_functions.php on line 10
+[29-Jun-2017 04:58:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/sylvangr/public_html/suite.social/coder/tv/include/functions/display_functions.php on line 10
+[29-Jun-2017 05:43:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/sylvangr/public_html/suite.social/coder/tv/include/functions/display_functions.php on line 10
+[15-Jul-2017 05:40:28 America/Chicago] PHP Fatal error:  Call to undefined function print__r() in /home3/sylvangr/public_html/suite.social/coder/tv/views/display_tweets.php on line 3
+[15-Jul-2017 05:40:40 America/Chicago] PHP Fatal error:  Call to undefined function print__r() in /home3/sylvangr/public_html/suite.social/coder/tv/views/display_tweets.php on line 3
+[15-Jul-2017 05:40:45 America/Chicago] PHP Fatal error:  Call to undefined function print__r() in /home3/sylvangr/public_html/suite.social/coder/tv/views/display_tweets.php on line 3
+[13-Sep-2017 12:39:29 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html class="ie gt-ie8"> <![endif]-->
+<!--[if !IE]><!--><html><!-- <![endif]-->
+<head>
+	<title>Social Suite - All-In-One Marketing Platform</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	
+	<!-- Bootstrap -->
+	<link href="http://suite.social/common/bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<link href="http://suite.social/common/bootstrap/css/responsive.css" rel="stylesheet" />
+	
+	<!-- Glyphicons Font Icons -->
+	<link href="http://suite.social/common/theme/css/glyphicons.css" rel="stylesheet" />
+	
+	<!-- Uniform Pretty Checkboxes -->
+	<link href="http://suite.social/common/theme/scripts/plugins/forms/pixelmatrix-uniform/css/uniform.default.css" rel="stylesheet" />
+	
+	<!-- Bootstrap Extended -->
+	<link href="http://suite.social/common/bootstrap/extend/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+	<link href="http://suite.social/common/bootstrap/extend/jasny-bootstrap/css/jasny-bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="http://suite.social/common/bootstrap/extend/bootstrap-wysihtml5/css/bootstrap-wysihtml5-0.0.2.css" rel="stylesheet">
+	<link href="http://suite.social/common/bootstrap/extend/bootstrap-select/bootstrap-select.css" rel="stylesheet" />
+	<link href="http://suite.social/common/bootstrap/extend/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" rel="stylesheet" />
+	
+	<!-- Select2 Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/forms/select2/select2.css" rel="stylesheet" />
+	
+	<!-- DateTimePicker Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/forms/bootstrap-datetimepicker/css/datetimepicker.css" rel="stylesheet" />
+	
+	<!-- JQueryUI -->
+	<link href="http://suite.social/common/theme/scripts/plugins/system/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" />
+	
+	<!-- MiniColors ColorPicker Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.css" rel="stylesheet" />
+	
+	<!-- Notyfy Notifications Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.css" rel="stylesheet" />
+	<link href="http://suite.social/common/theme/scripts/plugins/notifications/notyfy/themes/default.css" rel="stylesheet" />
+	
+	<!-- Gritter Notifications Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/notifications/Gritter/css/jquery.gritter.css" rel="stylesheet" />
+	
+	<!-- Easy-pie Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/charts/easy-pie/jquery.easy-pie-chart.css" rel="stylesheet" />
+
+	<!-- Google Code Prettify Plugin -->
+	<link href="http://suite.social/common/theme/scripts/plugins/other/google-code-prettify/prettify.css" rel="stylesheet" />
+
+	<!-- Main Theme Stylesheet :: CSS -->
+	<link href="http://suite.social/common/theme/css/style-dark.css?1369753443" rel="stylesheet" />
+		
+	<!-- LESS.js Library -->
+	<script src="http://suite.social/common/theme/scripts/plugins/system/less.min.js"></script>
+
+<script >
+
+function refreshIframe() {
+    var ifr = document.getElementById('refresh');
+    ifr.src = ifr.src;
+}
+</script>	
+	
+<style type="text/css">
+
+#content {
+  margin: 0;
+  background-color: #1F1F1F;
+}
+ 
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary:hover,
+{
+  background-color: #515f9c;
+}
+.btn-primary,
+#menu > ul.menu-0 > li.active > a {
+  border-color: #515f9c;
+  background-color: #6c78af;
+  background-image: -moz-linear-gradient(top, #7e89bc, #515f9c);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7e89bc), to(#515f9c));
+  background-image: -webkit-linear-gradient(top, #7e89bc, #515f9c);
+  background-image: -o-linear-gradient(top, #7e89bc, #515f9c);
+  background-image: linear-gradient(to bottom, #7e89bc, #515f9c);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7e89bc', endColorstr='#ff515f9c', GradientType=0);
+}
+.btn-primary {
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 1px #2e3659;
+  -moz-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 1px #2e3659;
+  -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 1px #2e3659;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #2e3659;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #48558b;
+}
+
+.widget-stats {
+	padding: 15px 0px 30px;
+}
+
+.widget-stats:hover {
+  background-color: #9dce6e;
+  background-image: -moz-linear-gradient(top, #a8d37d, #8ec657);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a8d37d), to(#8ec657));
+  background-image: -webkit-linear-gradient(top, #a8d37d, #8ec657);
+  background-image: -o-linear-gradient(top, #a8d37d, #8ec657);
+  background-image: linear-gradient(to bottom, #a8d37d, #8ec657);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa8d37d', endColorstr='#ff8ec657', GradientType=0);
+  border-color: #689c35;
+  text-shadow: 0 1px 0 #797979;
+}
+</style>	
+	
+</head>
+<body class="">
+	
+		<!-- Content -->
+		<div id="content"">
+
+<div class="innerLR">	
+	
+				<div align="center">
+				<div class="separator bottom"></div>
+				<h3>While the advert is playing, click the button to recognize</h3>
+			    <div class="separator bottom"></div>
+				<!-- Stats Widget -->
+				<a href="http://suite.social/login/manage" target="_top" class="widget-stats">
+					<span class="glyphicons microphone"><i></i></span>
+					<span class="txt"><h3 style="margin-bottom:25px">Detect Now</h3></span>
+					<div class="clearfix"></div>
+				</a>
+				<!-- // Stats Widget END -->
+				<div class="separator bottom"></div>
+				<p class="muted">Please keep the volume of music loud enough while recording. Just be aware of the poor performance of recording in browser.</p>
+				
+				</div>
+
+
+        </div>	
+
+</div>						
+		<!--  // Content END -->
+		
+			
+		<div class="clearfix"></div>
+		<!-- // Sidebar menu & content wrapper END -->
+				
+		
+	</div>
+	<!-- // Main Container Fluid END -->
+	
+
+<!-- Themer -->
+<div id="themer" class="collapse">
+	<div class="wrapper">
+		<span class="close2">&times; close</span>
+		<h4>Themer <span>color options</span></h4>
+		<ul>
+			<li>Theme: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
+			<li>Primary Color: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
+			<li>
+				<span class="link" id="themer-custom-reset">reset theme</span>
+				<span class="pull-right"><label>advanced <input type="checkbox" value="1" id="themer-advanced-toggle" /></label></span>
+			</li>
+		</ul>
+		<div id="themer-getcode" class="hide">
+			<hr class="separator" />
+			<button class="btn btn-primary btn-small pull-right btn-icon glyphicons download" id="themer-getcode-less"><i></i>Get LESS</button>
+			<button class="btn btn-inverse btn-small pull-right btn-icon glyphicons download" id="themer-getcode-css"><i></i>Get CSS</button>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- // Themer END -->
+
+	<!-- JQuery -->
+	<script src="http://suite.social/common/theme/scripts/plugins/system/jquery.min.js"></script>
+	
+	<!-- JQueryUI -->
+	<script src="http://suite.social/common/theme/scripts/plugins/system/jquery-ui/js/jquery-ui-1.9.2.custom.min.js"></script>
+
+	<!-- JQueryUI Touch Punch -->
+	<!-- small hack that enables the use of touch events on sites using the jQuery UI user interface library -->
+	<script src="http://suite.social/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- Modernizr -->
+	<script src="http://suite.social/common/theme/scripts/plugins/system/modernizr.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="http://suite.social/common/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- SlimScroll Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js"></script>
+
+	<!-- common Demo Script -->
+	<script src="http://suite.social/common/theme/scripts/demo/common.js?1369753443"></script>
+
+	<!-- Holder Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/other/holder/holder.js"></script>
+
+	<!-- Uniform Forms Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js"></script>
+
+	<!-- Simple Content Filter -->
+	<script type="text/javascript" src="http://suite.social/common/theme/scripts/plugins/system/simpleContentSearch.min.js"></script>
+
+	<!-- Simple Content Sorter -->
+	<script type="text/javascript" src="http://suite.social/common/theme/scripts/plugins/system/simpleContentSorting.min.js"></script>
+
+	<!-- Global -->
+	<script>
+	var basePath = 'http://suite.social/common/';
+	</script>
+
+	<!-- Bootstrap Extended -->
+	<script src="http://suite.social/common/bootstrap/extend/bootstrap-select/bootstrap-select.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/bootbox.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js"></script>
+	<script src="http://suite.social/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js"></script>
+
+	<!-- Google Code Prettify -->
+	<script src="http://suite.social/common/theme/scripts/plugins/other/google-code-prettify/prettify.js"></script>
+	
+	<!-- Gritter Notifications Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js"></script>
+	
+	<!-- Notyfy Notifications Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js"></script>
+	
+	<!-- MiniColors Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js"></script>
+	
+	<!-- DateTimePicker Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/forms/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Cookie Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/system/jquery.cookie.js"></script>
+
+	<!-- Colors -->
+	<script>
+	var primaryColor = '#8ec657',
+		dangerColor = '#b55151',
+		successColor = '#609450',
+		warningColor = '#ab7a4b',
+		inverseColor = '#45484d';
+	</script>
+
+	<!-- Themer -->
+	<script>
+	var themerPrimaryColor = primaryColor;
+	</script>
+	<script src="http://suite.social/common/theme/scripts/demo/themer.js"></script>
+	
+	<!-- Easy-pie Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/charts/easy-pie/jquery.easy-pie-chart.js"></script>
+	
+	<!-- Sparkline Charts Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.min.js"></script>
+	
+	<!-- Ba-Resize Plugin -->
+	<script src="http://suite.social/common/theme/scripts/plugins/other/jquery.ba-resize.js"></script>
+	
+	<!-- Notifications Page Demo Script -->
+	<script src="http://suite.social/common/theme/scripts/demo/notifications.js"></script>		
+
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //---------- Calling the Plugin ------------ 
+        $('#searchByChannel').simpleContentSearch({
+            'active': 'searchBoxActive',
+            'normal': 'searchBoxNormal',
+            'searchList': 'searchable li',
+            'searchItem': 'div'
+        });
+        $("#selectByIndustry").simpleContentSorting({//options
+            'sortingList': 'div#results',
+            'effect': 'fadeIn'
+        });
+        $("#selectByFunnel").simpleContentSorting({//options
+            'sortingList': 'div#results',
+            'effect': 'fadeIn'
+        });
+        $("#selectByGoals").simpleContentSorting({//options
+            'sortingList': 'div#results',
+            'effect': 'fadeIn'
+        });
+    });
+</script>
+</html>

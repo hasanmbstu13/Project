@@ -1,0 +1,37 @@
+[
+    {
+        "category": "sports",
+        "hashtag_title": "Bangladesh Cricket Team",
+        "hashtag": "#bangladeshcricketteam",
+        "image_url": "http::\/\/localhost.com",
+        "image": "Tulips.jpg"
+    },
+    {
+        "category": "sports",
+        "hashtag_title": "India Cricket Team",
+        "hashtag": "#indiacricketteam",
+        "image_url": "http::\/\/localhost.com",
+        "image": "Desert.jpg"
+    },
+    {
+        "category": "movies",
+        "hashtag_title": "Titanic",
+        "hashtag": "#titanic",
+        "image_url": "http::\/\/localhost.com",
+        "image": "Jellyfish.jpg"
+    },
+    {
+        "category": "books",
+        "hashtag_title": "Al-Quran",
+        "hashtag": "#alquran",
+        "image_url": "http::\/\/localhost.com",
+        "image": "Chrysanthemum.jpg"
+    },
+    {
+        "category": "others",
+        "hashtag_title": "I Teach Math",
+        "hashtag": "#iteachmath",
+        "image_url": "https:\/\/twitter.com\/hashtag\/iteachmath?src=hash",
+        "image": "Chrysanthemum.jpg"
+    }
+]
