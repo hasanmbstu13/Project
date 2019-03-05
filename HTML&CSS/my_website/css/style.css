@@ -1,0 +1,53 @@
+/*Default styles are here*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active{
+	text-decoration: none;
+}
+
+h1,
+h2,
+h4{
+	font-style: 'PT Sans Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p{
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn{
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.btn:hover{
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+/*Default styles end here*/
